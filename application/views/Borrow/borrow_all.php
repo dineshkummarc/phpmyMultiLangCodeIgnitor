@@ -6,14 +6,14 @@ $this->view('header');
 <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
 <!-- page Header End -->
 
-<h2 align="center">Search Books</h1>
+<h2 align="center">Search Stock</h1>
 <form class="form-horizontal" method="post" action="<?php echo site_url()."borrows/search"?>">
 	<table class="">
 		<tr>
 			<th>Start Date</th>
 			<th>End Date</th>
 			<th>Member Name</th>
-			<th>Book Name</th>
+			<th>Stock Name</th>
 			<th>Get Result</th>	
 		</tr>
 		<tr>
@@ -43,7 +43,7 @@ if (@$data) {
 				<th>Assign Date</th>
 				<th>Return Date</th>
 				<th>Assigned By</th>
-				<th>Book Name</th>
+				<th>Stock Name</th>
 				<th>Publisher</th>
 				<th>Author</th>
 				<th>Subject</th>
