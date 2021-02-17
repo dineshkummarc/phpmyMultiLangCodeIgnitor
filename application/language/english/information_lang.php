@@ -2,7 +2,7 @@
 
 $lang['welcome'] = 'WELCOME';
 $lang['site_name'] = 'StockManage';
-$lang['assign_books'] = 'Assign Books';
+$lang['assign_books'] = 'Assign Stock';
 $lang['assign_new'] = 'Assign New';
 $lang['issued'] = 'Issued';
 $lang['members'] = 'Members';
@@ -10,10 +10,10 @@ $lang['add_members'] = 'Add Members';
 $lang['all_members'] = 'All Members';
 $lang['books'] = 'Borrow Stocks';
 $lang['stock'] = 'Stocks';
-$lang['all_books'] = 'All Books';
-$lang['add_books'] = 'Add Books';
-$lang['all_borrowed'] = 'All Books';
-$lang['add_borrow'] = 'Borrow Books';
+$lang['all_books'] = 'All Stock';
+$lang['add_books'] = 'Add Stock';
+$lang['all_borrowed'] = 'All Stocks';
+$lang['add_borrow'] = 'Borrow Stocks';
 $lang['publishers'] = 'Publishers';
 $lang['add_publishers'] = 'Add Publisher';
 $lang['all_publishers'] = 'All Publisher';
