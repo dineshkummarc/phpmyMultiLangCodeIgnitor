@@ -1,7 +1,7 @@
 <?php
 $this->view('header');
 ?>
-	<h1 align="center">Searched Books</h1>
+	<h1 align="center">Searched Stock</h1>
 
 <?php
 if (count($res)>0) {
