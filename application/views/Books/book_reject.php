@@ -5,7 +5,7 @@ $this->view('header');
 
 	<!-- page content -->
 	<a onclick="window.history.back()" class="btn btn-warning">Go Back</a>
-	<h1 align="center">Add New Book</h1>
+	<h1 align="center">Add New Stock</h1>
 	<div class="row">
 		<div class="col-sm-9">
 			<form method="post"  action="<?php echo site_url()."books/save"?>">
@@ -20,7 +20,7 @@ $this->view('header');
 				 }
 				?>
 				<div class="form-group">
-					<label>Book Name</label>
+					<label>Stock Name</label>
 					<input type="text" name="bookname" required="required" class="form-control">
 				</div>
 				<div class="form-group">
