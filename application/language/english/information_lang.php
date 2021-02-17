@@ -1,7 +1,7 @@
 <?php
 
 $lang['welcome'] = 'WELCOME';
-$lang['site_name'] = 'AHLIB';
+$lang['site_name'] = 'StockManage';
 $lang['assign_books'] = 'Assign Books';
 $lang['assign_new'] = 'Assign New';
 $lang['issued'] = 'Issued';
