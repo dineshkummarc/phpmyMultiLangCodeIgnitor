@@ -55,12 +55,12 @@ $this->view('header');
 		<p id="cmember"></p>
 		</div>
 		<div class="form-group">
-			<label class="col-xs-12">Book ISBN</label>
+			<label class="col-xs-12">Stock ISBN</label>
 			<div class="col-xs-9">
 				<input type="text" name="" class="form-control" id="book">
 			</div>
 			<div class="col-xs-3">
-				<button type="button" id="checkbook" class="form-control btn-primary">Check Book</button>
+				<button type="button" id="checkbook" class="form-control btn-primary">Check Stock</button>
 			</div>
 			<p id="cbook" class="col-xs-12"></p>
 		</div>
@@ -108,7 +108,7 @@ $this->view('footer');
 	$("#checkbook").click(function(){
 		var bookid=$("#book").val();
 		if (bookid=='') {
-			return $("#cbook").text("Please Insert Book ISBN");
+			return $("#cbook").text("Please Insert Stock ISBN");
 		}
 		$.ajax({
 			type: "POST",
