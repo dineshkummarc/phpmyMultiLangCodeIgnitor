@@ -26,5 +26,4 @@ $lang['add_subject'] = 'Add Subject';
 $lang['change_language'] = 'Change Language';
 $lang['english'] = 'English';
 $lang['urdu'] = 'Urdu';
-
 ?>
