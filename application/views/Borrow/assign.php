@@ -5,7 +5,7 @@ $this->view('header');
 
 	<!-- page content -->
 	<a onclick="window.history.back()" class="btn btn-warning">Go Back</a>
-	<h1 align="center">Assign  Book</h1>
+	<h1 align="center">Assign  Stock</h1>
 	<form method="post"  action="<?php echo site_url()."borrows/save"?>">
 		<?php
 		 if ($this->session->flashdata('success')) {
@@ -23,7 +23,7 @@ $this->view('header');
 		</div>
 		
 		<div class="form-group">
-			<label>Book ISBN</label>
+			<label>Stock ISBN</label>
 			<input type="text" name="isbn" value="<?php echo$this->uri->segment(3);?>" class="form-control" id="book">
 		</div>
 		<div class="form-group col-xs-12" style="margin: 10px 0">
@@ -39,7 +39,7 @@ $this->view('footer');
 	$("#checkbook").click(function(){
 		var bookid=$("#book").val();
 		if (bookid=='') {
-			return $("#cbook").text("Please Insert Book ISBN");
+			return $("#cbook").text("Please Insert Stock ISBN");
 		}
 		//alert(memid);
 		$.ajax({
@@ -51,7 +51,7 @@ $this->view('footer');
 		    $("#cbook").text(res);
 		  })
 		  .fail(function() {
-		   $("#cbook").text("Book Not Found");
+		   $("#cbook").text("Stock Not Found");
 		  })
 	});
 </script>
