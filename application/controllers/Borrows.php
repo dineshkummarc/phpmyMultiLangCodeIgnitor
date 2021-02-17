@@ -41,7 +41,7 @@ class Borrows extends CI_Controller
 		$this->db->update('books', $da);
        $ret= $this->borrow->savedata($data);
        if ($ret) {
-       	$this->session->set_flashdata('success',"Book Assigned Successfully");
+       	$this->session->set_flashdata('success',"Stock Assigned Successfully");
        	redirect("borrows");
        }
 	}
@@ -93,7 +93,7 @@ class Borrows extends CI_Controller
 		
 		// function returned($id,$book,$member)
 		 $this->borrow->returned($_REQUEST['borrowed_id'],$_REQUEST['book_id']);
-		 $this->session->set_flashdata('success',"Book Returned");
+		 $this->session->set_flashdata('success',"Stock Returned");
 		redirect('members/single/'.$_REQUEST['member_id']);
 	}
 	public function search()
