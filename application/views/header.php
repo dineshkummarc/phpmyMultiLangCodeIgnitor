@@ -156,7 +156,7 @@
 		        </ul>
 		      </li>
 		      <li class="dropdown">
-		        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><?php echo lang('books');?>
+		        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><?php echo lang('stock');?>
 		        <span class="caret"></span></a>
 		        <ul class="dropdown-menu">
 		          <li><a href="<?php echo site_url()."books/index"?>"><?php echo lang('add_books');?></a></li>
