@@ -2,7 +2,7 @@
 An Introduction
 ###################
 
-The system is a library management system build on codeignitor with multilanguage support currently two languages are available (urdu and english) you can change your own. The system is fully normalized with searching, stock management, members management and fine.
+The system is a Stock management system build on codeignitor with multilanguage support currently two languages are available (urdu and english) you can change your own. The system is fully normalized with searching, stock management, members management and fine.
 
 
 *******************
