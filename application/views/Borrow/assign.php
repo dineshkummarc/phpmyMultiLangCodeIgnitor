@@ -24,7 +24,7 @@ $this->view('header');
 		
 		<div class="form-group">
 			<label>Stock ISBN</label>
-			<input type="text" name="isbn" value="<?php echo$this->uri->segment(3);?>" class="form-control" id="book">
+			<input type="text" name="isbn" required="required" value="<?php echo$this->uri->segment(3);?>" class="form-control" id="book">
 		</div>
 		<div class="form-group col-xs-12" style="margin: 10px 0">
 			<input type="submit" name="submit" class="btn btn-primary">
