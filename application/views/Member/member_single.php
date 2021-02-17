@@ -44,11 +44,11 @@ $this->view('header');
 			<?php
 			 }
 	?>
-	<h4   style="margin: 50px 0">Assigned Books</h4>
+	<h4   style="margin: 50px 0">Assigned Stock</h4>
 	<table id="myTable" class="table">
 		<tr>
 			
-			<th>Book</th>
+			<th>Stock</th>
 			<th>Assigned By</th>
 			<th>Assign Date</th>
 			<th>Actions/Return Date</th>
