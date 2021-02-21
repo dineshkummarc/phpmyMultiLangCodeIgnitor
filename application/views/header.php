@@ -139,17 +139,6 @@
 		      <a class="navbar-brand" href="<?php echo site_url()."home/index"?>"><?php echo lang('site_name');?></a>
 		    </div>
 		    <ul class="nav navbar-nav">
-		      
-		      
-		      
-		      <li class="dropdown">
-		        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><?php echo lang('publishers');?>
-		        <span class="caret"></span></a>
-		        <ul class="dropdown-menu">
-		          <li><a href="<?php echo site_url()."publishers/index"?>"><?php echo lang('add_publishers');?></a></li>
-		          <li><a href="<?php echo site_url()."publishers/publishers"?>"><?php echo lang('all_publishers');?></a></li>
-		        </ul>
-		      </li>
 		      <li class="dropdown">
 		        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><?php echo lang('author');?>
 		        <span class="caret"></span></a>
