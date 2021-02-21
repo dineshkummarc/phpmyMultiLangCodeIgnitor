@@ -139,14 +139,7 @@
 		      <a class="navbar-brand" href="<?php echo site_url()."home/index"?>"><?php echo lang('site_name');?></a>
 		    </div>
 		    <ul class="nav navbar-nav">
-		      <li class="dropdown">
-		        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><?php echo lang('books');?>
-		        <span class="caret"></span></a>
-		        <ul class="dropdown-menu">
-		          <li><a href="<?php echo site_url()."borrows/index"?>"><?php echo lang('add_books');?></a></li>
-		          <li><a href="<?php echo site_url()."borrows/borrows"?>"><?php echo lang('all_books');?></a></li>
-		        </ul>
-		      </li>
+		      
 		      <li class="dropdown">
 		        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><?php echo lang('members');?>
 		        <span class="caret"></span></a>
