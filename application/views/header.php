@@ -143,11 +143,9 @@
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#"><?php echo lang('change_language');?>
                 <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-
                   <li><a href='<?php echo site_url()?>langswitch/switchLanguage/english'><?php echo lang('english');?></a></li>
                   <li><a href='<?php echo site_url()?>langswitch/switchLanguage/urdu'><?php echo lang('urdu');?></a></li>
                 </ul>
-              
               </li>
 		    </ul>
 		      <ul class="nav navbar-nav navbar-right">
