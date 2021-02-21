@@ -139,21 +139,10 @@
 		      <a class="navbar-brand" href="<?php echo site_url()."home/index"?>"><?php echo lang('site_name');?></a>
 		    </div>
 		    <ul class="nav navbar-nav">
-		      
-		      <li class="dropdown">
-		        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><?php echo lang('subject');?>
-		        <span class="caret"></span></a>
-		        <ul class="dropdown-menu">
-		          <li><a href="<?php echo site_url()."subjects/index"?>"><?php echo lang('add_subject');?></a></li>
-		          <li><a href="<?php echo site_url()."subjects/subjects"?>"><?php echo lang('all_subject');?></a></li>
-		        </ul>
-		      
-		      </li>
               <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#"><?php echo lang('change_language');?>
                 <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-
 
                   <li><a href='<?php echo site_url()?>langswitch/switchLanguage/english'><?php echo lang('english');?></a></li>
                   <li><a href='<?php echo site_url()?>langswitch/switchLanguage/urdu'><?php echo lang('urdu');?></a></li>
