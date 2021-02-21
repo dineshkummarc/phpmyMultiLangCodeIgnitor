@@ -140,14 +140,7 @@
 		    </div>
 		    <ul class="nav navbar-nav">
 		      
-		      <li class="dropdown">
-		        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><?php echo lang('members');?>
-		        <span class="caret"></span></a>
-		        <ul class="dropdown-menu">
-		          <li><a href="<?php echo site_url()."members/index"?>"><?php echo lang('add_members');?></a></li>
-		          <li><a href="<?php echo site_url()."members/members"?>"><?php echo lang('all_members');?></a></li>
-		        </ul>
-		      </li>
+		      
 		      <li class="dropdown">
 		        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><?php echo lang('stock');?>
 		        <span class="caret"></span></a>
