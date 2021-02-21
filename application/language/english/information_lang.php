@@ -1,7 +1,7 @@
 <?php
 
 $lang['welcome'] = 'WELCOME';
-$lang['site_name'] = 'StockManage';
+$lang['site_name'] = 'phpmyMultiLangCodeIgnitor';
 $lang['assign_books'] = 'Assign Stock';
 $lang['assign_new'] = 'Assign New';
 $lang['issued'] = 'Issued';
