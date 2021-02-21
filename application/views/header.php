@@ -141,14 +141,7 @@
 		    <ul class="nav navbar-nav">
 		      
 		      
-		      <li class="dropdown">
-		        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><?php echo lang('stock');?>
-		        <span class="caret"></span></a>
-		        <ul class="dropdown-menu">
-		          <li><a href="<?php echo site_url()."books/index"?>"><?php echo lang('add_books');?></a></li>
-		          <li><a href="<?php echo site_url()."books/books"?>"><?php echo lang('all_books');?></a></li>
-		        </ul>
-		      </li>
+		      
 		      <li class="dropdown">
 		        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><?php echo lang('publishers');?>
 		        <span class="caret"></span></a>
