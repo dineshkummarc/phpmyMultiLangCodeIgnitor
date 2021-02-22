@@ -17,20 +17,18 @@ class Languages extends CI_Controller {
         $data = array(  
         'subject_name'     => $this->input->post('subject')
     	);
-    	// print_r($data);
-    	// exit();
+
        $ret= $this->language->savedata($data);
        if ($ret) {
        	$this->session->set_flashdata('success',"Subject Added Successfully");
-       	//$this->load->view('subject/subject-add');
+
        	redirect("subjects");
        }
 	}
 	public function subjects()
 	{
 		$data['data']=$this->language->alldata();
-		// print_r($data);
-		// exit();
+
 		$this->load->view('language/language_all',$data);
 	}
 	public function edit()
