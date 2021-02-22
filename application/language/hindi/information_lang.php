@@ -1,7 +1,7 @@
 <?php
 
 $lang['welcome'] = 'स्वागत हे';
-$lang['site_name'] = 'बहु भाषा कोड';
+$lang['site_name'] = 'मेरा बहु भाषा समन्वयक';
 $lang['change_language'] = 'भाषा बदलें';
 $lang['english'] = 'अंग्रेज़ी';
 $lang['urdu'] = 'उर्दू';
