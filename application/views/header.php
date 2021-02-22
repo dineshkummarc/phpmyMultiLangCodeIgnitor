@@ -145,11 +145,12 @@
                 <ul class="dropdown-menu">
                   <li><a href='<?php echo site_url()?>langswitch/switchLanguage/english'><?php echo lang('english');?></a></li>
                   <li><a href='<?php echo site_url()?>langswitch/switchLanguage/urdu'><?php echo lang('urdu');?></a></li>
+				  <li><a href='<?php echo site_url()?>langswitch/switchLanguage/hindi'><?php echo lang('hindi');?></a></li>
                 </ul>
               </li>
 		    </ul>
 		      <ul class="nav navbar-nav navbar-right">
-			      <li><a href="<?php echo site_url()."home/logout"?>"><span class="glyphicon glyphicon-user"></span> Logout</a></li>
+			      <li><a href="<?php echo site_url()."home/logout"?>"><span class="glyphicon glyphicon-user"></span> <?php echo lang('logout');?></a></li>
 			      
 			    </ul>
 		  </div>
