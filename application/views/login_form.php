@@ -31,3 +31,6 @@ $this->view('loginheader');
 		</div>
 	</form>
 </div>
+<?php
+$this->view('footer');
+?>
