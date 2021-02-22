@@ -8,7 +8,7 @@ $this->view('loginheader');
 		<?php
 		 if ($this->session->flashdata('error')) {
 		?>
-			<div class="alert alert-success alert-dismissible">
+			<div class="alert alert-danger alert-dismissible">
 			  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
 			  <?php echo $this->session->flashdata('error');?>
 			</div>
