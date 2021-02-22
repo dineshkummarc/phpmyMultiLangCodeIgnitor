@@ -1,7 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-
 class Languages extends CI_Controller {
 
 	function __construct()
@@ -54,6 +53,5 @@ class Languages extends CI_Controller {
 		$this->language->delete($value);
 		redirect("languages/languages");
 	}
-
 }
 	
