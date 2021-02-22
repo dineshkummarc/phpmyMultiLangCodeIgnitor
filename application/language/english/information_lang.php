@@ -11,4 +11,5 @@ $lang['to'] = 'to';
 $lang['login_now'] = 'Login Now';
 $lang['email'] = 'Email';
 $lang['password'] = 'Password';
+$lang['search'] = 'What are you looking for?';
 ?>
