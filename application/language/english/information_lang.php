@@ -12,4 +12,7 @@ $lang['login_now'] = 'Login Now';
 $lang['email'] = 'Email';
 $lang['password'] = 'Password';
 $lang['search'] = 'What are you looking for?';
+$lang['copyright'] = '© Copyright ';
+$lang['author'] = 'dineshkummarc';
+$lang['legal'] = 'All rights reserved.';
 ?>
