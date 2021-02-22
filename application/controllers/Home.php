@@ -22,9 +22,7 @@ class Home extends CI_Controller
 	public function search() {
 
         $search_data = $_POST['search_data'];
-
         $query = $this->book->get_live_items($search_data);
-
         foreach ($query as $row):
             echo "<li><a href='".site_url()."books/single/$row->isbn'>" . $row->book_name . "</a></li>";
 
