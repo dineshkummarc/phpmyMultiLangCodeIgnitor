@@ -22,9 +22,6 @@ $this->view('header');
                                         <div id="autoSuggestionsList">
                                         </div>
                                     </div>
-                                   <!--  <button type="submit" class="left-searchbtn"><i class="fa fa-search" style="color: #048CCE;"></i></button>
- -->
-                                <!-- </form> -->
 
                             </div>
 
@@ -44,29 +41,6 @@ $this->view('header');
 		<?php
 		 }
 		?>
-		<div class="form-group">
-			<label class="col-xs-12">Member ID</label>
-			<div class="col-xs-9">
-				<input type="text" name="" class="form-control" id="member">
-			</div>
-			<div class="col-xs-3">
-				<button type="button" id="checkmember" class="form-control btn-primary">Check Member</button>
-			</div>
-		<p id="cmember"></p>
-		</div>
-		<div class="form-group">
-			<label class="col-xs-12">Stock ISBN</label>
-			<div class="col-xs-9">
-				<input type="text" name="" class="form-control" id="book">
-			</div>
-			<div class="col-xs-3">
-				<button type="button" id="checkbook" class="form-control btn-primary">Check Stock</button>
-			</div>
-			<p id="cbook" class="col-xs-12"></p>
-		</div>
-		<!-- <div class="form-group col-xs-12" style="margin: 10px 0">
-			<input type="submit" name="submit" class="btn btn-primary">
-		</div> -->
 	</form>
 	<br><br><br>
 	<div id="result"></div>
