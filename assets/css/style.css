@@ -32,15 +32,22 @@
                 margin: 0 15px 0 15px;
             }
 
-            p.footer {
+            .footer {
                 text-align: right;
                 font-size: 11px;
                 border-top: 1px solid #D0D0D0;
                 line-height: 32px;
                 padding: 0 10px 0 10px;
                 margin: 20px 0 0 0;
+				position: fixed;
+				left: 0;
+			    bottom: 0;
+			    width: 100%;
+				text-align: center;
+				background-color: #f9f9f9;
+			    color: Black;
             }
-
+			
             #container {
                 margin: 10px;
                 border: 1px solid #D0D0D0;
