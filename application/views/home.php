@@ -22,9 +22,7 @@ $this->view('header');
                                         <div id="autoSuggestionsList">
                                         </div>
                                     </div>
-
                             </div>
-
                         </div>
                     </div>
                 </div>
