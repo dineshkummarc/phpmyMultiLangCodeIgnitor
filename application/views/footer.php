@@ -1,3 +1,4 @@
+<p class='footer'>footer check</p>
 	</div>
 	<script type="text/javascript">
 		
