@@ -11,4 +11,5 @@ $lang['to'] = 'کرنے کے لئے';
 $lang['login_now'] = 'ابھی لاگ ان کریں';
 $lang['email'] = 'ای میل';
 $lang['password'] = 'پاس ورڈ';
+$lang['search'] = 'تم کیا تلاش کر رہے ہو؟';
 ?>
