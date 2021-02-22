@@ -8,9 +8,9 @@ class Home extends CI_Controller
 	function __construct()
 	{
 		parent::__construct();
-		$this->load->model('book');
-		$this->load->model('member');
-		$this->load->model('borrow');
+		//$this->load->model('book');
+		//$this->load->model('member');
+		//$this->load->model('borrow');
 	}
 	public function index()
 	{
