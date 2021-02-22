@@ -12,4 +12,7 @@ $lang['login_now'] = 'अभी लॉगिन करें';
 $lang['email'] = 'ईमेल';
 $lang['password'] = 'पासवर्ड / कुंजिका';
 $lang['search'] = 'आप क्या ढूंढ रहे हैं?';
+$lang['copyright'] = '© कॉपीराइट ';
+$lang['author'] = 'दिनेशकुमारसी';
+$lang['legal'] = 'सभी अधिकार सुरक्षित।';
 ?>
