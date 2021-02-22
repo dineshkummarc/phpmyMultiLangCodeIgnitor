@@ -10,15 +10,15 @@
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['ftp_no_connection']		= '.پتہ لگانے سے قاصر. لہذا درخواست ہے کے آپ اس بات کو یقینی بنا لیں کے فائلز کے معمولات سے پہلے آپ کنیکٹیڈ ہوں ID درست کنکشن';
-$lang['ftp_unable_to_connect']		= '.سرور سے رابطہ ممکن نہیں FTP کو استعمال کرتے ہوئے hostname آپکے دیے گئے';
-$lang['ftp_unable_to_login']		= '.سرور کے ساتھ لاگ ان ممکن نہیں. درخواست ہے کے اپنے یوزرنیم اور پاس ورڈ کو چیک کریں FTP دیے گئے';
-$lang['ftp_unable_to_mkdir']		= '.آپکی وضاحت کردہ ڈائرکٹری تشکیل دینے کے کبل نہیں';
-$lang['ftp_unable_to_changedir']	= '.ڈائرکٹری تبدیل کرنا ممکن نہیں';
-$lang['ftp_unable_to_chmod']		= '.فائل کی اجازت کو مقرر کرنا ممکن نہیں. براےمہربانی فائل کا پتہ چیک کریں';
-$lang['ftp_unable_to_upload']		= '.مخصوص کردہ فائل کو اپلوڈ کرنا ممکن نہیں. براےمہربانی فائل کا پتہ چیک کریں';
-$lang['ftp_unable_to_download']		= '.مخصوص کردہ فائل کو ڈونلوڈ  کرنا ممکن نہیں. براےمہربانی فائل کا پتہ چیک کریں';
-$lang['ftp_no_source_file']			= '.سورس فائل تو تلاش کرنا ممکن نہیں ہے. براےمہربانی فائل کا پتہ چیک کریں';
-$lang['ftp_unable_to_rename']		= '.فائل کا نام تبدیل کرنا ممکن نہیں ہے';
-$lang['ftp_unable_to_delete']		= '.فائل کو ڈیلیٹ کرنا ممکن ناہیں ہے';
-$lang['ftp_unable_to_move']			= '.فائل کو منتکل کرنا ممکن نہیں. بریمھربانی تصدیق کریں کے فائل کی منزل باقاعدہ موجود ہو';
+$lang['ftp_no_connection'] = 'Unable to locate. Therefore you are requested to make sure that you have connected IDs before the routine of the files 'correct connection'';
+$lang['ftp_unable_to_connect'] = 'Could not connect to server using FTP hostname provided by you';
+$lang['ftp_unable_to_login'] = '. Login with server not possible. Please check your username and password provided FTP ';
+$lang['ftp_unable_to_mkdir'] = 'Cannot create directory you specified';
+$lang['ftp_unable_to_changedir'] = 'Cannot change directory.';
+$ $lang['ftp_unable_to_chmod'] = 'Cannot set file permissions. Please check the file address';
+$ $lang['ftp_unable_to_upload'] = 'Unable to upload the specified file. Please check the file address';
+$lang['ftp_unable_to_download'] = 'The specified file could not be downloaded. Please check the file address';
+$lang['ftp_no_source_file'] = 'The source file could not be found. Please check the file address';
+$lang['ftp_unable_to_rename'] = 'It is not possible to rename the file';
+$lang['ftp_unable_to_delete'] = 'It is not possible to delete the file';
+$lang['ftp_unable_to_move'] = 'The file could not be moved. Please confirm that the destination of the file exists regularly ';
