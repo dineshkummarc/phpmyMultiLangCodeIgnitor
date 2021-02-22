@@ -17,7 +17,7 @@ $this->view('header');
                         <div class="form-group">
                             <div class="" style="width: 80%; margin: 0 auto; margin-bottom: 40px;margin-top: 20px;">
                                 <!-- <form action="" method="post"> -->
-                                    <input type="text" id="search_data" class="form-control search-input" name="search-term" placeholder="What are you looking for?" onkeyup="liveSearch()" autocomplete="off">
+                                    <input type="text" id="search_data" class="form-control search-input" name="search-term" placeholder="<?php echo lang('search');?>" onkeyup="liveSearch()" autocomplete="off">
                                     <div id="suggestions">
                                         <div id="autoSuggestionsList">
                                         </div>
