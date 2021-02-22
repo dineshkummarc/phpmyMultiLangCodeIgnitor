@@ -12,4 +12,7 @@ $lang['login_now'] = 'ابھی لاگ ان کریں';
 $lang['email'] = 'ای میل';
 $lang['password'] = 'پاس ورڈ';
 $lang['search'] = 'تم کیا تلاش کر رہے ہو؟';
+$lang['copyright'] = '© حق اشاعت';
+$lang['author'] = 'ڈینیشکمارک';
+$lang['legal'] = 'تمام حقوق محفوظ ہیں۔';
 ?>
