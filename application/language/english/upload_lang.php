@@ -10,19 +10,19 @@
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['upload_userfile_not_set']	= '.کے نام کا ایل پوسٹ ویریبل ڈھونڈنا ممکن نہیں ہو سکا userfile';
-$lang['upload_file_exceeds_limit']	= '.کی کنفگریشن فائل میں مختص سائز سے بڑھ گئی ہے PHP اپلوڈ کردہ فائل کا سائز';
-$lang['upload_file_exceeds_form_limit']	= '.اپ لوڈ کردہ فائل جمع کرانے کے فارم میں زیادہ سے زیادہ کی اجازت سائز سے تجاوز کر گئی ہے';
-$lang['upload_file_partial']		= '.فائل صرف جزوی طور پر اپ لوڈہوئی ہے';
-$lang['upload_no_temp_directory']	= '.عارضی فولڈر غائب ہے';
-$lang['upload_unable_to_write_file']	= '.فائل کو ڈسک پر لکھا نہیں جا سکا';
-$lang['upload_stopped_by_extension']	= '.فائل اپ لوڈ کو ایکسٹینشن نے بند  کر دیا تھا';
-$lang['upload_no_file_selected']	= '.آپ نے اپلوڈ کرنےکیلئے فائل سلیکٹ نہیں کی تھی';
-$lang['upload_invalid_filetype']	= '.جس قسم کی فائل کو آپ اپلوڈ کرنا چاہ رہے ہیں اسے اپلوڈ کرنے کی اجزارت نہیں ہے';
-$lang['upload_invalid_filesize']	= '.جس فائل کو آپ اپلوڈ کرنا چاہ رہے ہیں اس کا سائز جائز حد سے زیادہ ہے';
-$lang['upload_invalid_dimensions']	= '.جس تصویرکو آپ اپلوڈ کرنا چاہ رہے ہیں اس کا سائزجائز طول و عرض مطابقت نہیں ہے';
-$lang['upload_destination_error']	= '.آخری منزل پر اپ لوڈ کردہ فائل کو منتقل کرنے کی کوشش کے دوران ایک مسلے کا سامنا ہوا ہے';
-$lang['upload_no_filepath']			= '.اپلوڈ کرنے کا پتہ درست سبط نہیں ہوتا';
-$lang['upload_no_file_types']		= '.آپ نے کسی بھی جائز فائل کی قسم وظائغ نہیں کی';
-$lang['upload_bad_filename']		= '.اپ کی دی گئی فائل کا نام پہلے سے ہے سرور پر موجود ہے';
-$lang['upload_not_writable']		= '.اپلوڈ کرنے کی منزل کے فولڈر کا پتہ درست نہیں ہے';
+$lang['upload_userfile_not_set'] = 'Could not find the .post variable named .file userfile';
+$lang['upload_file_exceeds_limit'] = 'PHP uploaded file size exceeds specified size in configuration file.';
+$lang['upload_file_exceeds_form_limit'] = 'Uploaded file submission form exceeds maximum allowed size';
+$lang['upload_file_partial'] = '.file is only partially uploaded';
+$lang['upload_no_temp_directory'] = 'Temporary folder is missing';
+$lang['upload_unable_to_write_file'] = 'The file could not be written to disk';
+$lang['upload_stopped_by_extension'] = 'The file upload was stopped by the extension';
+$lang['upload_no_file_selected'] = 'You did not select the file to upload';
+$lang['upload_invalid_filetype'] = 'The type of file you want to upload is not allowed to be uploaded';
+$lang['upload_invalid_filesize'] = 'The file you are trying to upload is too large';
+$lang['upload_invalid_dimensions'] = 'The image you are trying to upload does not match the size and dimensions';
+$lang['upload_destination_error'] = 'An error occurred while trying to move the uploaded file to the last destination';
+$lang['upload_no_filepath'] = 'The upload address does not match the correct';
+$lang['upload_no_file_types'] = 'You have not uploaded any valid file types';
+$lang['upload_bad_filename'] = 'The file name you specified already exists on the server';
+$lang['upload_not_writable'] = 'The upload destination folder address is invalid';
