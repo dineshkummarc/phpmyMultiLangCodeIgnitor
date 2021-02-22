@@ -10,22 +10,22 @@
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['ut_test_name']		= 'ٹیسٹ کا نام';
-$lang['ut_test_datatype']	= 'ٹیسٹ ڈیٹاٹائپ';
-$lang['ut_res_datatype']	= 'توقع کا ڈیٹاٹائپ';
-$lang['ut_result']		= 'نتیجہ';
-$lang['ut_undefined']		= 'غیر واضع ٹیسٹ کا  نام';
-$lang['ut_file']		= 'فائل کا نام';
-$lang['ut_line']		= 'لائن نمبر';
-$lang['ut_passed']		= 'کامیاب';
-$lang['ut_failed']		= 'ناکام';
-$lang['ut_boolean']		= 'بولین';
-$lang['ut_integer']		= 'عددی';
-$lang['ut_float']		= 'فلوٹ';
-$lang['ut_double']		= 'فلوٹ'; // can be the same as float
-$lang['ut_string']		= 'سٹرنگ';
-$lang['ut_array']		= 'اررے';
-$lang['ut_object']		= 'آبجیکٹ';
-$lang['ut_resource']		= 'ریسورس';
-$lang['ut_null']		= 'نل';
-$lang['ut_notes']		= 'نوٹس';
+$lang['ut_test_name'] = 'Test Name';
+$lang['ut_test_datatype'] = 'Test datatype';
+$lang['ut_res_datatype'] = 'Expected datatype';
+$lang['ut_result'] = 'Result';
+$lang['ut_undefined'] = 'Undefined Test Name';
+$lang['ut_file'] = 'File Name';
+$lang['ut_line'] = 'Line Number';
+$lang['ut_passed'] = 'Success';
+$lang['ut_failed'] = 'Failed';
+$lang['ut_boolean'] = 'Boolean';
+$lang['ut_integer'] = 'Numerical';
+$lang['ut_float'] = 'Float';
+$lang['ut_double'] = 'Float'; // can be the same as float
+$lang['ut_string'] = 'String';
+$lang['ut_array'] = 'Utray';
+$lang['ut_object'] = 'Object';
+$lang['ut_resource'] = 'Resource';
+$lang['ut_null'] = 'Ut';
+$lang['ut_notes'] = 'Notes';
