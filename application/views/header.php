@@ -28,6 +28,7 @@
                   <li><a href='<?php echo site_url()?>langswitch/switchLanguage/english'><?php echo lang('english');?></a></li>
                   <li><a href='<?php echo site_url()?>langswitch/switchLanguage/urdu'><?php echo lang('urdu');?></a></li>
 				  <li><a href='<?php echo site_url()?>langswitch/switchLanguage/hindi'><?php echo lang('hindi');?></a></li>
+				  <li><a href='<?php echo site_url()?>langswitch/switchLanguage/indonesia'><?php echo lang('bahasa');?></a></li>
                 </ul>
               </li>
 		    </ul>
