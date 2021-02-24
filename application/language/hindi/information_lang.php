@@ -6,6 +6,7 @@ $lang['change_language'] = 'भाषा बदलें';
 $lang['english'] = 'अंग्रेज़ी';
 $lang['urdu'] = 'उर्दू';
 $lang['hindi'] = 'हिन्दी';
+$lang['bahasa'] = 'बहासा';
 $lang['logout'] = 'लॉग आउट';
 $lang['to'] = 'सेवा मेरे';
 $lang['login_now'] = 'अभी लॉगिन करें';
